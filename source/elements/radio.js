@@ -1,11 +1,12 @@
+import { Component, template, define } from '../import.js';
 import html from '../templates/radio.js';
 
-export class Radio extends quantum.Component {
+export class Radio extends Component {
     constructor() {
         super();
     }
 
-    static template = quantum.template(html);
+    static template = template(html);
 }
 
-quantum.define('quantum-radio', Radio);
+define('quantum-radio', Radio);
