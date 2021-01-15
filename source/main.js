@@ -1,1 +1,3 @@
-export * from './elements/element.js';
+import * as radio from './elements/element.js';
+
+Object.assign(window, radio);
