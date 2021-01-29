@@ -1,3 +1,3 @@
-import * as radio from './elements/element.js';
+import { Radio } from './elements/element.js';
 
-Object.assign(quantum, radio);
+Quantum.Radio = Radio;

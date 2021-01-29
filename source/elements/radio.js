@@ -1,13 +1,9 @@
 import html from '../templates/radio.js';
 
-const { Component, template, define } = quantum;
-
-export class Radio extends Component {
+export class Radio extends Quantum {
     constructor() {
         super();
     }
-
-    static template = template(html);
 }
 
-define('quantum-radio', Radio);
+Radio.define('quantum-radio', html);
