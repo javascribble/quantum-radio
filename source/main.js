@@ -1,3 +1,1 @@
-import { Radio } from './elements/element.js';
-
-Quantum.Radio = Radio;
+import './elements/element.js';
